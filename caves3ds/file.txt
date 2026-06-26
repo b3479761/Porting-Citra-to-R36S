@@ -1,0 +1,489 @@
+=== STARTING PORTMASTER LAUNCHER SCRIPT WITH MESAPACK (VULKAN) ===
+Fri 26 Jun 2026 04:04:54 PM CEST
+# R36S - ArkOS
+```bash
+DEVICE_INFO_VERSION=0.1.15
+PM_VERSION=2026.05.04-1202
+CFW_NAME=ArkOS
+CFW_VERSION=07312025
+CFW_GLIBC=230
+DEVICE_NAME=R36S
+DEVICE_CPU=RK3326
+DEVICE_ARCH=aarch64
+DEVICE_RAM=1
+DEVICE_HAS_ARMHF="Y"
+DEVICE_HAS_AARCH64="Y"
+DEVICE_HAS_X86="N"
+DEVICE_HAS_X86_64="N"
+DISPLAY_WIDTH=640
+DISPLAY_HEIGHT=480
+DISPLAY_ORIENTATION=0
+ASPECT_X=4
+ASPECT_Y=3
+ANALOG_STICKS=2
+```
+cat: /home/ark/.config/.OS: No such file or directory
+Checking Weston runtime...
+Checking Mesapack runtime...
+Mounting Weston...
+Mounting Mesapack...
+Mounting Azahar application...
+Starting gptokeyb...
+[GPTK]: Running in UINPUT output mode.
+Executing application runtime window...
+Westonwrap 0.2.7.1
+gptokeyb is running, using it as a kill signal
+# R36S - ArkOS
+```bash
+DEVICE_INFO_VERSION=0.1.15
+PM_VERSION=2026.05.04-1202
+CFW_NAME=ArkOS
+CFW_VERSION=07312025
+CFW_GLIBC=230
+DEVICE_NAME=R36S
+DEVICE_CPU=RK3326
+DEVICE_ARCH=aarch64
+DEVICE_RAM=1
+DEVICE_HAS_ARMHF="Y"
+DEVICE_HAS_AARCH64="Y"
+DEVICE_HAS_X86="N"
+DEVICE_HAS_X86_64="N"
+DISPLAY_WIDTH=640
+DISPLAY_HEIGHT=480
+DISPLAY_ORIENTATION=0
+ASPECT_X=4
+ASPECT_Y=3
+ANALOG_STICKS=2
+```
+cat: /tmp/citra_home/.config/.OS: No such file or directory
+/tmp/weston/westonwrap.sh: line 95: [: : integer expression expected
+Running in aarch64 mode
+Checking if gptokeyb is still running...
+System has GBM/DRM support, setting up libgbm and libdrm.
+Setting up DRM backend
+Setting up GL renderer
+Setting up Kiosk shell
+Found libGL at /lib/aarch64-linux-gnu/libGL.so.1
+Doesn't seem to be GL4ES, proceeding
+Setting up system Libs
+Prep for CrustyGBM is required...
+Setting up Crusty references
+Setting up XDG_RUNTIME_DIR
+Starting Seatd
+Crusty loaded by ./seatd
+Started initializing...
+Version 0.4 built on 2025-04-10 22:01:46 with options: DRMGBM_FRONTEND UDEVDRM_FRONTEND SDL2_BACKEND GBM_FIX CONTROLLER_HOOK CURSOR CURSOR_X EGL_LOADER DRMGBM_LOADER SDL_LOADER 
+Initializing udev frontend
+Done initializing udev frontend. Hooked functions: 6 / Passed through: 86
+Initializing EGL Loader
+Done initializing EGL Loader. Hooked functions: 0 / Passed through: 34
+Initializing DRMGBM Loader
+Done initializing DRM Loader. Hooked functions: 0 / Passed through: 203
+Done initializing GBM Loader. Hooked functions: 0 / Passed through: 25
+Initializing SDL Loader
+Done initializing SDL Loader. Hooked functions: 0 / Passed through: 18
+Initializing DRM Pipe... 0/0
+Done initializing.
+00:00:00.000 [INFO] [seatd/seat.c:39] Created VT-bound seat seat0
+00:00:00.000 [INFO] [seatd/seatd.c:194] seatd started
+Checking if gptokeyb is still running...
+Crusty loaded by printenv
+Started initializing...
+Version 0.4 built on 2025-04-10 22:01:46 with options: DRMGBM_FRONTEND UDEVDRM_FRONTEND SDL2_BACKEND GBM_FIX CONTROLLER_HOOK CURSOR CURSOR_X EGL_LOADER DRMGBM_LOADER SDL_LOADER 
+Initializing udev frontend
+Done initializing udev frontend. Hooked functions: 6 / Passed through: 86
+Initializing EGL Loader
+Done initializing EGL Loader. Hooked functions: 0 / Passed through: 34
+Initializing DRMGBM Loader
+Done initializing DRM Loader. Hooked functions: 0 / Passed through: 203
+Done initializing GBM Loader. Hooked functions: 0 / Passed through: 25
+Initializing SDL Loader
+Done initializing SDL Loader. Hooked functions: 0 / Passed through: 18
+Initializing DRM Pipe... 0/0
+Done initializing.
+XWAYLAND_LD_LIBRARY_PATH=
+LD_LIBRARY_PATH=/tmp/weston/lib_aarch64/graphics/crusty_gbm/:/tmp/weston/lib_aarch64:/tmp/mesapack/lib:/tmp/mesapack/usr/lib:/tmp/mesapack/usr/lib/dri
+LD_PRELOAD=/tmp/weston/lib_aarch64/graphics/crusty_gbm/libcrusty.so
+SHELL=/bin/bash
+CFW_GLIBC=230
+CFW_VERSION=07312025
+SUDO_GID=1002
+CRUSTY_LIBGBM=/usr/local/lib/aarch64-linux-gnu/libgbm.so.1
+DEVICE_HAS_AARCH64=Y
+DEVICE_HAS_ARMHF=Y
+WESTON_DATA_DIR=/tmp/weston/data
+XDG_CONFIG_HOME=/tmp/citra_home/.config
+SUDO_COMMAND=/usr/bin/env HOME=/tmp/citra_home XDG_CONFIG_HOME=/tmp/citra_home/.config DBUS_SESSION_BUS_ADDRESS=/dev/null GALLIUM_HUD=fps,cpu GALLIUM_DRIVER=llvmpipe LIBGL_ALWAYS_SOFTWARE=1 VK_DRIVER_FILES=/tmp/usr/share/vulkan/icd.d/lvp_icd.aarch64.json AMD_VULKAN_ICD=layer LD_LIBRARY_PATH=/tmp/mesapack/lib:/tmp/mesapack/usr/lib:/tmp/mesapack/usr/lib/dri /tmp/weston/westonwrap.sh drm gl kiosk system /tmp/Azahar/AppDir/AppRun --fullscreen --graphics-api=vulkan /roms/ports/caves3ds/caves.3ds
+DEVICE_ARCH=aarch64
+GALLIUM_DRIVER=llvmpipe
+SUDO_USER=ark
+ESUDOKILL=-sudokill
+weston_shell=kiosk-shell.so
+PWD=/tmp/weston
+controlfolder=/opt/system/Tools/PortMaster
+DEVICE_CPU=RK3326
+LOGNAME=root
+weston_dir=/tmp/weston
+weston_preload=/tmp/weston/lib_aarch64/graphics/crusty_gbm/libcrusty.so
+game_dir=/home/ark
+westonmod_dir=/tmp/weston/lib_aarch64/weston
+HOME=/tmp/citra_home
+ASPECT_X=4
+ASPECT_Y=3
+LANG=en_US.UTF-8
+ANALOG_STICKS=2
+AMD_VULKAN_ICD=layer
+ESUDOKILL2=-Z
+PM_RESOURCE_DIR=/opt/system/Tools/PortMaster/resources
+CRUSTY_LIBDRM=/lib/aarch64-linux-gnu/libdrm.so
+libweston_dir=/tmp/weston/lib_aarch64/libweston-14
+gllib_path=
+CRUSTY_LIBEGL=/usr/local/lib/aarch64-linux-gnu/libEGL.so
+ESUDO=sudo --preserve-env=SDL_GAMECONTROLLERCONFIG_FILE,DEVICE,param_device,HOTKEY,ANALOGSTICKS,SDL_KMSDRM_ORIENTATION,SDL_KMSDRM_ROTATION
+DISPLAY_WIDTH=640
+DEVICE_NAME=R36S
+SDL_GAMECONTROLLERCONFIG_FILE=/tmp/gamecontrollerdb.txt
+DEVICE_HAS_X86=N
+VK_DRIVER_FILES=/tmp/usr/share/vulkan/icd.d/lvp_icd.aarch64.json
+DEVICE_INFO_VERSION=0.1.15
+TERM=linux
+GPTOKEYB2=sudo --preserve-env=SDL_GAMECONTROLLERCONFIG_FILE,DEVICE,param_device,HOTKEY,ANALOGSTICKS,SDL_KMSDRM_ORIENTATION,SDL_KMSDRM_ROTATION env LD_PRELOAD=/opt/system/Tools/PortMaster/libinterpose.aarch64.so /opt/system/Tools/PortMaster/gptokeyb2 -Z
+USER=root
+DISPLAY_ORIENTATION=0
+GALLIUM_HUD=fps,cpu
+PYSDL2_DLL_PATH=/usr/lib
+APP_LIBRARY_PATH=/tmp/weston/lib_aarch64/extra_wayland/:/tmp/weston/lib_aarch64
+gllib_preload=
+PM_PORTNAME=westonwrap
+DISPLAY_HEIGHT=480
+SHLVL=1
+GPTOKEYB=sudo --preserve-env=SDL_GAMECONTROLLERCONFIG_FILE,DEVICE,param_device,HOTKEY,ANALOGSTICKS,SDL_KMSDRM_ORIENTATION,SDL_KMSDRM_ROTATION /opt/system/Tools/PortMaster/gptokeyb -sudokill
+weston_backend=drm --drm-device card0
+LIBGL_ALWAYS_SOFTWARE=1
+DEVICE_HAS_X86_64=N
+CRUSTY_LIBSDL=/lib/aarch64-linux-gnu/libSDL2.so
+WESTON_CONFIG=/tmp/weston/weston.ini
+weston_backendlib=/tmp/weston/lib_aarch64/graphics/crusty_gbm/
+XDG_RUNTIME_DIR=/tmp/weston_runtime
+WESTON_LIBEXEC_DIR=/tmp/weston/libexec
+PM_CAN_MOUNT=Y
+PM_VERSION=2026.05.04-1202
+weston_renderer=--renderer=gl
+DEVICE_RAM=1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+directory=roms
+PM_FUNCS_VERSION=3
+SUDO_UID=1002
+DBUS_SESSION_BUS_ADDRESS=/dev/null
+WESTON_MODULE_MAP=x11-backend.so=/tmp/weston/lib_aarch64/libweston-14/x11-backend.so;wayland-backend.so=/tmp/weston/lib_aarch64/libweston-14/wayland-backend.so;drm-backend.so=/tmp/weston/lib_aarch64/libweston-14/drm-backend.so;headless-backend.so=/tmp/weston/lib_aarch64/libweston-14/headless-backend.so;gl-renderer.so=/tmp/weston/lib_aarch64/libweston-14/gl-renderer.so;kiosk-shell.so=/tmp/weston/lib_aarch64/weston/kiosk-shell.so;desktop-shell.so=/tmp/weston/lib_aarch64/weston/desktop-shell.so;fullscreen-shell.so=/tmp/weston/lib_aarch64/weston/fullscreen-shell.so;xwayland.so=/tmp/weston/lib_aarch64/libweston-14/xwayland.so;
+MAIL=/var/mail/root
+CFW_NAME=ArkOS
+XKB_CONFIG_ROOT=/tmp/share/xkb
+PM_SCRIPTNAME=westonwrap.sh
+OLDPWD=/home/ark
+_=/usr/bin/printenv
+Starting Weston
+./wp_weston: /tmp/weston/lib_aarch64/libxkbcommon.so.0: no version information available (required by /tmp/weston/lib_aarch64/libweston-14.so.0)
+./wp_weston: /tmp/weston/lib_aarch64/graphics/crusty_gbm/libcrusty.so: no version information available (required by /tmp/weston/lib_aarch64/libinput.so.10)
+Crusty loaded by ./wp_weston
+Started initializing...
+Version 0.4 built on 2025-04-10 22:01:46 with options: DRMGBM_FRONTEND UDEVDRM_FRONTEND SDL2_BACKEND GBM_FIX CONTROLLER_HOOK CURSOR CURSOR_X EGL_LOADER DRMGBM_LOADER SDL_LOADER 
+Initializing udev frontend
+Done initializing udev frontend. Hooked functions: 6 / Passed through: 86
+Initializing EGL Loader
+Done initializing EGL Loader. Hooked functions: 0 / Passed through: 34
+Initializing DRMGBM Loader
+Done initializing DRM Loader. Hooked functions: 0 / Passed through: 203
+Done initializing GBM Loader. Hooked functions: 0 / Passed through: 25
+Initializing SDL Loader
+Done initializing SDL Loader. Hooked functions: 0 / Passed through: 18
+Initializing DRM Pipe... 0/0
+Done initializing.
+Date: 2026-06-26 CEST
+[16:04:58.910] weston 13.0.90
+               https://wayland.freedesktop.org
+               Bug reports to: https://gitlab.freedesktop.org/wayland/weston/issues/
+               Build: 13.0.0-110-g215cceb4+
+[16:04:58.910] Command line: ./wp_weston -c /tmp/weston/weston.ini -B drm --drm-device card0 --renderer=gl --shell=kiosk-shell.so -i0 -Swayland-5 --xwayland
+[16:04:58.910] OS: Linux, 4.4.189, #3 SMP Wed Oct 13 23:24:26 EDT 2021, aarch64
+[16:04:58.910] Flight recorder: enabled
+[16:04:58.910] warning: XDG_RUNTIME_DIR "/tmp/weston_runtime" is not configured
+correctly.  Unix access mode must be 0700 (current mode is 0755),
+and must be owned by the user UID 0 (current owner is UID 0).
+Refer to your distribution on how to get it, or
+http://www.freedesktop.org/wiki/Specifications/basedir-spec
+on how to implement it.
+[16:04:58.913] Using config file '/tmp/weston/weston.ini'
+[16:04:58.914] Output repaint window is 7 ms maximum.
+[16:04:58.917] Loading module '/tmp/weston/lib_aarch64/libweston-14/drm-backend.so'
+[16:04:58.926] initializing drm backend
+[16:04:58.926] Trying libseat launcher...
+00:00:00.660 [INFO] [seatd/server.c:146] New client connected (pid: 13714, uid: 0, gid: 0)
+00:00:00.660 [INFO] [seatd/seat.c:169] Added client 1 to seat0
+00:00:00.660 [INFO] [seatd/seat.c:459] Opened client 1 on seat0
+[16:04:58.927] [libseat/libseat.c:73] Seat opened with backend 'seatd'
+[16:04:58.927] [libseat/backend/seatd.c:212] Enabling seat
+[16:04:58.927] libseat: session control granted
+DRM Intercepted device open: /dev/dri/card0 3
+SDL2 Window Resolution: 640 480
+Failed to get attribute Double Buffer: OpenGL error: GL_INVALID_ENUM
+Failed to get attribute Accum Red Size: OpenGL error: GL_INVALID_ENUM
+Failed to get attribute Accum Green Size: OpenGL error: GL_INVALID_ENUM
+Failed to get attribute Accum Blue Size: OpenGL error: GL_INVALID_ENUM
+Failed to get attribute Accum Alpha Size: OpenGL error: GL_INVALID_ENUM
+Crusty's SDL2 backend is running with these attributes: 
+Red Size: 8
+Green Size: 8
+Blue Size: 8
+Alpha Size: 8
+Buffer Size: 32
+Depth Size: 24
+Stencil Size: 8
+Multisample Buffers: 0
+Multisample Samples: 0
+Context Major Version: 3
+Context Minor Version: 2
+Context Profile Mask: 4
+
+
+
+
+
+[16:04:58.985] using /dev/dri/card0
+[16:04:58.985] DRM: does not support atomic modesetting
+[16:04:58.985] DRM: does not support GBM modifiers
+[16:04:58.985] DRM: does not support async page flipping
+[16:04:58.985] DRM: supports picture aspect ratio
+[16:04:58.989] Loading module '/tmp/weston/lib_aarch64/libweston-14/gl-renderer.so'
+GBM Display requested
+[16:04:58.990] EGL version: 1.4 Bifrost-"r13p0-01rel0"
+[16:04:58.990] EGL vendor: ARM
+[16:04:58.990] EGL client APIs: OpenGL_ES
+[16:04:58.990] warning: Disabling render GPU timeline and explicit synchronization due to missing EGL_ANDROID_native_fence_sync extension
+[16:04:58.990] EGL features:
+               EGL Wayland extension: no
+               context priority: yes
+               buffer age: no
+               partial update: yes
+               swap buffers with damage: no
+               configless context: yes
+               surfaceless context: yes
+               dmabuf support: legacy
+[16:04:58.991] Failed to obtain a high priority context.
+[16:04:58.991] GL version: OpenGL ES 3.2 v1.r13p0-01rel0.8747d14aec16ec21ac2b2da252c4ec5f
+[16:04:58.991] GLSL version: OpenGL ES GLSL ES 3.20
+[16:04:58.991] GL vendor: ARM
+[16:04:58.991] GL renderer: Mali-G31
+[16:04:59.031] GL ES 3.2 - renderer features:
+               read-back format: ARGB8888
+               glReadPixels supports y-flip: no
+               wl_shm 10 bpc formats: yes
+               wl_shm 16 bpc formats: no
+               wl_shm half-float formats: no
+               internal R and RG formats: yes
+               OES_EGL_image_external: yes
+[16:04:59.031] Using GL renderer
+[16:04:59.055] event0  - rk8xx_pwrkey: is tagged by udev as: Keyboard
+[16:04:59.056] event0  - rk8xx_pwrkey: device is a keyboard
+[16:04:59.060] event2  - GO-Super Gamepad: is tagged by udev as: Joystick
+[16:04:59.060] event2  - GO-Super Gamepad: device is a joystick or a gamepad, ignoring
+[16:04:59.072] event2  - not using input device '/dev/input/event2'
+[16:04:59.075] event3  - odroidgo3-keys: is tagged by udev as: Keyboard
+[16:04:59.075] event3  - odroidgo3-keys: device is a keyboard
+[16:04:59.080] event1  - rockchip,rk817-codec Headphones: is tagged by udev as: Switch
+[16:04:59.092] event1  - not using input device '/dev/input/event1'
+[16:04:59.094] event4  - Fake Keyboard: is tagged by udev as: Keyboard Mouse
+[16:04:59.095] event4  - Fake Keyboard: device is a pointer
+[16:04:59.095] event4  - Fake Keyboard: device is a keyboard
+[16:04:59.182] libinput: configuring device "rk8xx_pwrkey".
+[16:04:59.182] libinput: configuring device "odroidgo3-keys".
+[16:04:59.182] libinput: configuring device "Fake Keyboard".
+[16:04:59.182] DRM: head 'VGA-0' found, connector 1338001 is connected, EDID make 'unknown', model 'unknown', serial ''
+               Supported EOTF modes: SDR
+[16:04:59.182] Registered plugin API 'weston_drm_output_api_v1' of size 40
+[16:04:59.182] Color manager: no-op
+                 protocol support: no
+[16:04:59.183] Output 'VGA-0' attempts EOTF mode: SDR
+[16:04:59.183] Output 'VGA-0' using color profile: stock sRGB color profile
+[16:04:59.183] Attempting to create gbm surface 640 - 480 - 875713112 - 5, device=0x55ae6f8a30
+[16:04:59.183] Checking modifier support
+[16:04:59.183] xrgb=875713112 argb=875713089 format=875713112
+[16:04:59.183] Surface=0x55ae8c1ce0
+[16:04:59.183] Chosen EGL config details: id:   9 rgba: 8 8 8 0 buf: 24 dep:  0 stcl: 0 int: 0-1 type: win|pbf|swap_preserved vis_id: XRGB8888 (0x34325258)
+GBM backed surface requested
+[16:04:59.183] Output VGA-0 (crtc 1338003) video modes:
+               640x480@2000000.0, preferred, current, 50.0 MHz
+               26994x8293@0.1, 1969711.5 MHz
+[16:04:59.183] associating input device event0 with output VGA-0 (none by udev)
+[16:04:59.183] associating input device event3 with output VGA-0 (none by udev)
+[16:04:59.183] associating input device event4 with output VGA-0 (none by udev)
+[16:04:59.183] Output 'VGA-0' enabled with head(s) VGA-0
+[16:04:59.183] Compositor capabilities:
+               arbitrary surface rotation: yes
+               screen capture uses y-flip: yes
+               cursor planes: yes
+               arbitrary resolutions: no
+               view mask clipping: yes
+               explicit sync: no
+               color operations: no
+               presentation clock: CLOCK_MONOTONIC, id 1
+               presentation clock resolution: 0.000000001 s
+[16:04:59.187] Loading module '/tmp/weston/lib_aarch64/weston/kiosk-shell.so'
+[16:04:59.192] Loading module '/tmp/weston/lib_aarch64/libweston-14/xwayland.so'
+[16:04:59.252] Registered plugin API 'weston_xwayland_v3' of size 32
+[16:04:59.252] Registered plugin API 'weston_xwayland_surface_v1' of size 16
+[16:04:59.252] unlinking stale lock file /tmp/.X0-lock
+[16:04:59.253] xserver listening on display :0
+[16:04:59.309] Warning: computed repaint delay for output [VGA-0] is abnormal: -668489 msec
+Checking if gptokeyb is still running...
+Running your command /tmp/Azahar/AppDir/AppRun --fullscreen --graphics-api=vulkan /roms/ports/caves3ds/caves.3ds
+---------------------------------------------------------------------------------------------------
+[16:05:05.524] YO WHAT :/tmp/weston/lib_aarch64/graphics/crusty_gbm/:/tmp/weston/lib_aarch64:/tmp/mesapack/lib:/tmp/mesapack/usr/lib:/tmp/mesapack/usr/lib/dri
+[16:05:05.525] launching 'bin/Xwayland'
+Crusty loaded by bin/Xwayland
+Started initializing...
+Version 0.4 built on 2025-04-10 22:01:46 with options: DRMGBM_FRONTEND UDEVDRM_FRONTEND SDL2_BACKEND GBM_FIX CONTROLLER_HOOK CURSOR CURSOR_X EGL_LOADER DRMGBM_LOADER SDL_LOADER 
+Initializing udev frontend
+Done initializing udev frontend. Hooked functions: 6 / Passed through: 86
+Initializing EGL Loader
+Done initializing EGL Loader. Hooked functions: 0 / Passed through: 34
+Initializing DRMGBM Loader
+Done initializing DRM Loader. Hooked functions: 0 / Passed through: 203
+Done initializing GBM Loader. Hooked functions: 0 / Passed through: 25
+Initializing SDL Loader
+Done initializing SDL Loader. Hooked functions: 0 / Passed through: 18
+Initializing DRM Pipe... 0/0
+Done initializing.
+(WW) Option "-listen" for file descriptors is deprecated
+Please use "-listenfd" instead.
+(WW) Option "-listen" for file descriptors is deprecated
+Please use "-listenfd" instead.
+glamor: 'wl_drm' not supported
+Missing Wayland requirements for glamor GBM backend
+Failed to initialize glamor, falling back to sw
+Crusty loaded by sh
+Started initializing...
+Version 0.4 built on 2025-04-10 22:01:46 with options: DRMGBM_FRONTEND UDEVDRM_FRONTEND SDL2_BACKEND GBM_FIX CONTROLLER_HOOK CURSOR CURSOR_X EGL_LOADER DRMGBM_LOADER SDL_LOADER 
+Initializing udev frontend
+Done initializing udev frontend. Hooked functions: 6 / Passed through: 86
+Initializing EGL Loader
+Done initializing EGL Loader. Hooked functions: 0 / Passed through: 34
+Initializing DRMGBM Loader
+Done initializing DRM Loader. Hooked functions: 0 / Passed through: 203
+Done initializing GBM Loader. Hooked functions: 0 / Passed through: 25
+Initializing SDL Loader
+Done initializing SDL Loader. Hooked functions: 0 / Passed through: 18
+Initializing DRM Pipe... 0/0
+Done initializing.
+Crusty loaded by bin/xkbcomp
+Started initializing...
+Version 0.4 built on 2025-04-10 22:01:46 with options: DRMGBM_FRONTEND UDEVDRM_FRONTEND SDL2_BACKEND GBM_FIX CONTROLLER_HOOK CURSOR CURSOR_X EGL_LOADER DRMGBM_LOADER SDL_LOADER 
+Initializing udev frontend
+Done initializing udev frontend. Hooked functions: 6 / Passed through: 86
+Initializing EGL Loader
+Done initializing EGL Loader. Hooked functions: 0 / Passed through: 34
+Initializing DRMGBM Loader
+Done initializing DRM Loader. Hooked functions: 0 / Passed through: 203
+Done initializing GBM Loader. Hooked functions: 0 / Passed through: 25
+Initializing SDL Loader
+Done initializing SDL Loader. Hooked functions: 0 / Passed through: 18
+Initializing DRM Pipe... 0/0
+Done initializing.
+[16:05:07.741] xfixes version: 5.0
+[16:05:08.025] created wm, root 671
+Crusty loaded by sh
+Started initializing...
+Version 0.4 built on 2025-04-10 22:01:46 with options: DRMGBM_FRONTEND UDEVDRM_FRONTEND SDL2_BACKEND GBM_FIX CONTROLLER_HOOK CURSOR CURSOR_X EGL_LOADER DRMGBM_LOADER SDL_LOADER 
+Initializing udev frontend
+Done initializing udev frontend. Hooked functions: 6 / Passed through: 86
+Initializing EGL Loader
+Done initializing EGL Loader. Hooked functions: 0 / Passed through: 34
+Initializing DRMGBM Loader
+Done initializing DRM Loader. Hooked functions: 0 / Passed through: 203
+Done initializing GBM Loader. Hooked functions: 0 / Passed through: 25
+Initializing SDL Loader
+Done initializing SDL Loader. Hooked functions: 0 / Passed through: 18
+Initializing DRM Pipe... 0/0
+Done initializing.
+Crusty loaded by bin/xkbcomp
+Started initializing...
+Version 0.4 built on 2025-04-10 22:01:46 with options: DRMGBM_FRONTEND UDEVDRM_FRONTEND SDL2_BACKEND GBM_FIX CONTROLLER_HOOK CURSOR CURSOR_X EGL_LOADER DRMGBM_LOADER SDL_LOADER 
+Initializing udev frontend
+Done initializing udev frontend. Hooked functions: 6 / Passed through: 86
+Initializing EGL Loader
+Done initializing EGL Loader. Hooked functions: 0 / Passed through: 34
+Initializing DRMGBM Loader
+Done initializing DRM Loader. Hooked functions: 0 / Passed through: 203
+Done initializing GBM Loader. Hooked functions: 0 / Passed through: 25
+Initializing SDL Loader
+Done initializing SDL Loader. Hooked functions: 0 / Passed through: 18
+Initializing DRM Pipe... 0/0
+Done initializing.
+GameMode ERROR: Could not connect to bus: Address does not contain a colon
+[16:05:12.109] Warning: computed repaint delay for output [VGA-0] is abnormal: -681288 msec
+QPixmap::scaled: Pixmap is a null pixmap
+[16:05:12.998] Warning: computed repaint delay for output [VGA-0] is abnormal: -682177 msec
+[16:05:13.022] Warning: computed repaint delay for output [VGA-0] is abnormal: -682201 msec
+[16:05:13.046] Warning: computed repaint delay for output [VGA-0] is abnormal: -682225 msec
+               Warning: the above message will be suppresssed for the next 3586264 ms.
+Terminated
+Application closed or crashed. Running cleanups...
+[16:06:38.139] event4  - Fake Keyboard: device removed
+00:01:39.906 [ERROR] [seatd/seat.c:330] Could not revoke evdev on device fd: No such device
+The Wayland connection broke. Did the Wayland compositor die?
+/roms/ports/caves3dsgame.sh: line 123: 13547 Killed                  $GPTOKEYB "AppRun" -c "/roms/ports/caves3ds/netsurf.gptk"
+(EE) failed to read Wayland events: Connection reset by peer
+free(): invalid pointer
+(EE) 
+(EE) Backtrace:
+(EE) 0: bin/Xwayland (0x556232c000+0x15a620) [0x5562486620]
+(EE) 1: bin/Xwayland (0x556232c000+0x15d490) [0x5562489490]
+(EE) 2: linux-vdso.so.1 (__kernel_rt_sigreturn+0x0) [0x7f9944d6c0]
+(EE) 3: /lib/aarch64-linux-gnu/libc.so.6 (gsignal+0xe0) [0x7f98bf13d0]
+(EE) 4: /lib/aarch64-linux-gnu/libc.so.6 (abort+0x110) [0x7f98bddfa8]
+(EE) 5: /lib/aarch64-linux-gnu/libc.so.6 (0x7f98bba000+0x71164) [0x7f98c2b164]
+(EE) 6: /lib/aarch64-linux-gnu/libc.so.6 (0x7f98bba000+0x7856c) [0x7f98c3256c]
+(EE) 7: /lib/aarch64-linux-gnu/libc.so.6 (0x7f98bba000+0x79da0) [0x7f98c33da0]
+(EE) 8: /lib/aarch64-linux-gnu/libc.so.6 (__cxa_finalize+0x16c) [0x7f98bf408c]
+(EE) 9: /usr/local/lib/aarch64-linux-gnu/libGLESv2.so (0x7f962f3000+0x3a99a4) [0x7f9669c9a4]
+(EE) 
+(EE) 
+Fatal server error:
+(EE) Caught signal 6 (Aborted). Server aborting
+(EE) 
+00:01:40.798 [INFO] [seatd/client.c:465] Client disconnected
+00:01:40.853 [INFO] [seatd/seat.c:400] No clients on seat0 to activate
+00:01:40.853 [ERROR] [common/terminal.c:207] Could not set VT mode to enable process switching: Resource temporarily unavailable
+00:01:40.853 [ERROR] [common/terminal.c:247] Could not set KD keyboard mode to enabled: Resource temporarily unavailable
+00:01:40.853 [ERROR] [common/terminal.c:274] Could not set KD graphics mode to text: Resource temporarily unavailable
+00:01:40.853 [INFO] [seatd/seat.c:499] Closed client 1 on seat0
+seatd: ../common/linked_list.c:23: linked_list_remove: Assertion `elem->prev != NULL && elem->next != NULL' failed.
+rm: cannot remove '/tmp/citra_home/.cache': Permission denied
+rm: cannot remove '/tmp/citra_home/.config/azahar-emu/custom/000400000009B300.ini': Permission denied
+rm: cannot remove '/tmp/citra_home/.config/azahar-emu/qt-config.ini': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/cheats': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/sysdata/play_time.bin': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/sysdata/mac.txt': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/sysdata/mcu.dat': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/shaders/vulkan/transferable/000400000009B300_fs.vkch': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/shaders/vulkan/transferable/000400000009B300_vs.vkch': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/shaders/vulkan/transferable/000400000009B300_gs.vkch': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/shaders/vulkan/transferable/000400000009B300_pl.vkch': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/shaders/vulkan/pipeline': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0009b300/data/00000001.metadata': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/0009b300/data/00000001/options.dat': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/nand/rw': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/nand/dbs/ticket.db': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/nand/data/00000000000000000000000000000000/sysdata/00010035/00000000/news.db': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/nand/data/00000000000000000000000000000000/sysdata/00010026/00000000/eventlog.dat': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/nand/data/00000000000000000000000000000000/sysdata/00010026/00000000/CEC/MBoxList____': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/nand/data/00000000000000000000000000000000/sysdata/00010017/00000000/config': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/nand/data/00000000000000000000000000000000/extdata/00048000/F000000B/user/gamecoin.dat': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/nand/data/00000000000000000000000000000000/extdata/00048000/F000000B/metadata': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/nand/data/00000000000000000000000000000000/extdata/00048000/F000000B/boss': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/nand/ro': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/log/azahar_log.txt': Permission denied
+rm: cannot remove '/tmp/citra_home/.local/share/azahar-emu/log/azahar_log.old.txt': Permission denied
+/opt/system/Tools/PortMaster/funcs.txt: line 140: 14331 Killed                  $ESUDO pkill -9 -f gptokeyb
+/opt/system/Tools/PortMaster/funcs.txt: line 140: 14337 Killed                  $ESUDO pkill -9 -f gptokeyb2
+=== SCRIPT FINISHED ===
