@@ -1,0 +1,15 @@
+System requirement
+ArkOS 2.0 (07312025)
+
+Hardware:
+Brand New R36S with it’s brand new Arkos 2.0 firmware
+
+Installed software:
+/opt/system/Tools/PortMaster/libs/mesapack_pkg_0.1.squashfs exist (download with portmaster)
+/opt/system/Tools/PortMaster/libs/weston_pkg_0.2.squashfs exist (download with portmaster)
+PM: 2026.05.04-1202 or newer
+HM: 2025-06-06 or newer
+A copy of my custom Azahar.squashfs
+A legally obtained 3ds rom
+
+Copy everything to /roms/ports/ directory and then run the scripts (in the portmaster) “caves3dsgui.sh” for gui, “caves3dsgame.sh” to boot into the game directory.
