@@ -10,7 +10,7 @@ Installed software:
 PM: 2026.05.04-1202 or newer
 HM: 2025-06-06 or newer
 A copy of my custom Azahar.squashfs
-Download link: https://archive.org/details/azahar_202606
+Download link: 
 , place it in the "caves3ds" folder so it 
 look like this "/roms/ports/caves3ds/Azahar.squashfs"
 
