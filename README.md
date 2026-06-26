@@ -1,16 +1,16 @@
 # Porting-Citra-to-R36S
 deployment of Nintendo 3DS emulation on low-power, ARM-based Linux handheld architectures (such as those running ArkOS, Rocknix, or JelOS via the PortMaster ecosystem).
 
-Write full length report to
-Why use this software
-For who when and where
-How to use
-Requirement on software and hardware
-Compare to android solution
-Nightly build
-Special thanks
+Index
+1.Write full length report to
+2.Why use this software
+3.For who when and where
+4.How to use
+5.Requirement on software and hardware
+6.Compare to android solution
+7.Nightly build
+8.Special thanks
 
-===
 Porting Citra (Azahar Engine) to Handheld Linux: System Architecture, Optimization, and Integration Report
 
 Executive Summary
