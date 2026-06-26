@@ -11,6 +11,9 @@ PM: 2026.05.04-1202 or newer
 HM: 2025-06-06 or newer
 A copy of my custom Azahar.squashfs
 Download link: https://archive.org/details/azahar_202606
+, place it in the "caves3ds" folder so it 
+look like this "/roms/ports/caves3ds/Azahar.squashfs"
+
 A legally obtained 3ds rom
 
 Copy everything to /roms/ports/ directory and then run the scripts (in the portmaster) “caves3dsgui.sh” for gui, “caves3dsgame.sh” to boot into the game directory.
