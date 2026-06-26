@@ -77,13 +77,12 @@ Resolution Scaling Precision	Enforced baseline 1x native mapping scale (resoluti
 Audio Processing Synchronization	Stripped down audio engine dependencies (output_engine=null) to ensure stable frame processing	Prone to audio buffer stutters if frames fall below refresh limits
 6. Development Pipeline & The Nightly Build System
 To maintain optimal execution parameters, this integration utilizes an automated nightly compile matrix:
-[Upstream Source Repositories] ---> [Automated Nightly GitHub Actions runner]
-                                                 |
-                                                 v
-[Clean File Extraction] <--- [SquashFS Compactor & Optimization Layer Optimization]
-         |
-         v
-[Distribution Packages via PortMaster / Eco-System Channels]
+graph TD
+    A[Upstream Source Repositories] --> B[Automated Nightly GitHub Actions runner]
+    B --> C[Clean File Extraction]
+    D[SquashFS Compactor & Optimization Layer] --> C
+    C --> E[Distribution Packages via PortMaster / Eco-System Channels]
+
 
 1. Upstream Source Ingestion: Automated GitHub Actions trackers poll upstream forks of the Azahar Application Engine and Mesa driver subsets.
 2. SquashFS Compactor & Optimization Layer Optimization: Code targets cross-compilation architectures (aarch64), discarding unused window assets, debug frameworks, and standard display servers, packaging them directly into static read-only .squashfs formats.
